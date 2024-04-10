@@ -1,0 +1,87 @@
+/* Custom styling for container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Custom styling for form */
+.signup-form {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Custom styling for form inputs */
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Custom styling for form buttons */
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50; /* Green */
+    color: white;
+}
+
+.signup-form button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Custom styling for recipe cards */
+.card-container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.card-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-container h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-container p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Custom styling for edit and delete buttons */
+.card-container button {
+    width: calc(50% - 5px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-container button.edit-btn {
+    background-color: #ffc107; /* Yellow */
+    color: #333;
+}
+
+.card-container button.delete-btn {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+.card-container button:hover {
+    opacity: 0.8;
+}
